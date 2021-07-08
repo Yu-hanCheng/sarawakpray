@@ -95,7 +95,7 @@
 		@foreach($statistic as $data)
             <tr>
                 <td>{{$data->area}}</td>
-                <td>{{$data->grp}}</td>
+                <td>{{$data->group}}</td>
                 <td>{{$data->tan}}</td>
                 <td>{{$data->name}}</td>
                 <td>{{$data->b1}}</td>
