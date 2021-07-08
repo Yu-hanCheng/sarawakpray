@@ -91,7 +91,7 @@
 								<select name="tan" id="tan">
 									<option value="D佛院">佛院</option>      
 									@foreach($tans as $tan)
-									<option value="{{$tan->tan_name}}">{{ $tan->tan_name}}</option>
+									<option value="{{$tan->id}}">{{ $tan->tan}}</option>
 									@endforeach
 									
 								</select>
@@ -122,7 +122,7 @@
 									maxlenght="3" size="3" value=""></td>
 						</tr>
 						<tr>
-							<td>明聖經</td>
+							<td>號召令</td>
 							<td><input type="text" name="b3" id="book3" style="font-size: 12pt; font-family: 新細明體"
 									maxlenght="3" size="3" value=""></td>
 						</tr>
