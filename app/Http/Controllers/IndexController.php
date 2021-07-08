@@ -27,9 +27,17 @@ class IndexController extends Controller
         $sumup= DB::table('counters')
                 ->join('tan_list', 'tan_list.id', '=', 'counters.tan_id')
                 ->select(DB::raw('area,`group`,tan,name,SUM(book1) as b1, SUM(book2) as b2, SUM(book3) as b3, SUM(veg) as veg'))
+                ->whereNull('updated_at')
                 ->groupBy('area','group','tan','name')
                 ->orderBy('tan')
                 ->get();
         return view('Statistic', ['statistic' => $sumup]);
     } 
+    public function reset(Request $request){
+
+        DB::table('counters')
+                ->whereNull('updated_at')
+                ->update(['updated_at'=>now()]);
+        return redirect('statistic');
+    }
 }

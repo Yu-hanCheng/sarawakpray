@@ -24,3 +24,4 @@ Route::get('mi',  function(){return View('mi');});
 Route::get('mind',  function(){return View('mind');});
 Route::get('min',  function(){return View('min');});
 Route::get('statistic',  [IndexController::class, 'summary']);
+Route::get('reset',  [IndexController::class, 'reset'])->name('reset');
