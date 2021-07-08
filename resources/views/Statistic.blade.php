@@ -9,8 +9,7 @@
 	<title>發一崇德砂拉越道務中心</title>
 
 	<!-- bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap.min.css">
@@ -22,16 +21,14 @@
 	<script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap.min.js"></script>
 	<script src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	
+
 	<!-- SEO -->
 	<meta name=" keywords" content="發一崇德砂拉越道務中心,發一崇德,砂拉越道務中心,砂拉越" />
-	<meta name="description"
-		content="發一崇德砂拉越道務中心，響應您我善願同步誦經祈願，恭誦彌勒救苦真經，心經誦經後點擊「我已經完成誦經」迴向，把愛串起來 凝聚您我慈悲之心，叩求諸天仙佛慈悲挽化疫情止息 願天下眾生平安" />
+	<meta name="description" content="發一崇德砂拉越道務中心，響應您我善願同步誦經祈願，恭誦彌勒救苦真經，心經誦經後點擊「我已經完成誦經」迴向，把愛串起來 凝聚您我慈悲之心，叩求諸天仙佛慈悲挽化疫情止息 願天下眾生平安" />
 
 	<!-- Open Graph -->
 	<meta property="og:title" content="發一崇德砂拉越道務中心,發一崇德,砂拉越道務中心,砂拉越" />
-	<meta property="og:description"
-		content="發一崇德砂拉越道務中心，響應您我善願同步誦經祈願，恭誦彌勒救苦真經，心經，明聖經誦經後點擊「我已經完成誦經」迴向，把愛串起來 凝聚您我慈悲之心，叩求諸天仙佛慈悲挽化疫情止息 願天下眾生平安" />
+	<meta property="og:description" content="發一崇德砂拉越道務中心，響應您我善願同步誦經祈願，恭誦彌勒救苦真經，心經，明聖經誦經後點擊「我已經完成誦經」迴向，把愛串起來 凝聚您我慈悲之心，叩求諸天仙佛慈悲挽化疫情止息 願天下眾生平安" />
 </head>
 
 <body>
@@ -40,10 +37,8 @@
 			<div class="pricing-header p-2 pb-md-4 mx-auto text-center">
 				<h1 class="display-6 fw-normal">發一崇德砂拉越
 					<span class="badge rounded-pill bg-light text-dark my-1">愛的共振
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#dc3545"
-							class="bi bi-heart-fill mb-2" viewBox="0 0 16 16">
-							<path fill-rule="evenodd"
-								d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#dc3545" class="bi bi-heart-fill mb-2" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
 						</svg></span>
 				</h1>
 				<h2>善願同步迴向祈願</h2>
@@ -58,77 +53,77 @@
 	</div>
 
 	<!-- bootstrap -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
 	</script>
 	<script type="text/javascript">
 		fetch('http://worldclockapi.com/api/json/utc/now')
-      .then(data => data.json())
-      .then(d => 
-      document.getElementById('foot').innerHTML = (new Date(d.currentDateTime)).toISOString() .split('T')[0]
-		)
-		$(document).ready(function () {
-			$('#example').DataTable( {
+			.then(data => data.json())
+			.then(d =>
+				document.getElementById('foot').innerHTML = (new Date(d.currentDateTime)).toISOString().split('T')[0]
+			)
+		$(document).ready(function() {
+			$('#example').DataTable({
 				select: true
-			} );
+			});
 			//彈出遮罩表單
 		});
 
 		window.onload = init;
-		function del(){
-			if(prompt('password')=='20210709'){
-				window.location.href="{{route('reset')}}";
-			}
-			else{
-				alert("點選了取消按鈕");
+
+		function del() {
+			if (prompt('password') == '20210709') {
+				window.location.href = "{{route('reset')}}";
+			} else {
+				alert("密碼錯誤 或 點選取消按鈕");
 			}
 		}
 	</script>
-	<div class = "container">
-	<input type = "button" id = "resetCounters" class="btn btn-primary" value ="重計" onclick="javascript:return del()"></input>
-	<table id="example" class="table table-striped table-bordered" style="width:100%">
-        <thead>
-            <tr>
-                <th>地區</th>
-                <th>組別</th>
-                <th>壇名</th>
-                <th>姓名</th>
-                <th>彌勒真經</th>
-                <th>心經</th>
-                <th>號召令</th>
-                <th>一日一齋</th>
-            </tr>
-        </thead>
-        <tbody>
-		@foreach($statistic as $data)
-            <tr>
-                <td>{{$data->area}}</td>
-                <td>{{$data->group}}</td>
-                <td>{{$data->tan}}</td>
-                <td>{{$data->name}}</td>
-                <td>{{$data->b1}}</td>
-                <td>{{$data->b2}}</td>
-                <td>{{$data->b3}}</td>
-                <td>{{$data->veg}}</td>
-            </tr>
-		@endforeach
-        </tbody>
-        <tfoot>
-            <tr>
-                <th>地區</th>
-                <th>組別</th>
-                <th>壇名</th>
-                <th>姓名</th>
-                <th>彌勒真經</th>
-                <th>心經</th>
-                <th>明聖經</th>
-                <th>一日一齋</th>
-            </tr>
-        </tfoot>
-    </table>
+	<div class="container">
+		<input type="button" id="resetCounters" class="btn btn-primary" value="重計" onclick="javascript:return del()"></input>
+		<table id="example" class="table table-striped table-bordered" style="width:100%">
+			<thead>
+				<tr>
+					<th>地區</th>
+					<th>組別</th>
+					<th>壇名</th>
+					<th>姓名</th>
+					<th>彌勒真經</th>
+					<th>心經</th>
+					<th>號召令</th>
+					<th>一日一齋</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach($statistic as $data)
+				<tr>
+					<td>{{$data->area}}</td>
+					<td>{{$data->group}}</td>
+					<td>{{$data->tan}}</td>
+					<td>{{$data->name}}</td>
+					<td>{{$data->b1}}</td>
+					<td>{{$data->b2}}</td>
+					<td>{{$data->b3}}</td>
+					<td>{{$data->veg}}</td>
+				</tr>
+				@endforeach
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>地區</th>
+					<th>組別</th>
+					<th>壇名</th>
+					<th>姓名</th>
+					<th>彌勒真經</th>
+					<th>心經</th>
+					<th>明聖經</th>
+					<th>一日一齋</th>
+				</tr>
+			</tfoot>
+		</table>
 	</div>
 </body>
-<footer  align="center">
-<a id="foot"></a> 
-  </footer>
+<footer align="center">
+	<a id="foot"></a>
+</footer>
+
 </html>
