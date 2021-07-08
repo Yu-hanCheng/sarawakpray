@@ -17,7 +17,7 @@ class CreateCountersTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name');
-            $table->string('tan');
+            $table->string('tan_id')->references('id')->on('tan_list')->onDelete('cascade');
             $table->integer('book1');
             $table->integer('book2');
             $table->integer('book3');

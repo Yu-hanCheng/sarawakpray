@@ -86,13 +86,14 @@
                 <th>姓名</th>
                 <th>彌勒真經</th>
                 <th>心經</th>
-                <th>明聖經</th>
+                <th>號召令</th>
                 <th>一日一齋</th>
             </tr>
         </thead>
         <tbody>
 		@foreach($statistic as $data)
             <tr>
+                <td>{{$data->area}}</td>
                 <td>{{$data->grp}}</td>
                 <td>{{$data->tan}}</td>
                 <td>{{$data->name}}</td>
