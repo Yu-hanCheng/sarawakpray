@@ -19,7 +19,7 @@ class IndexController extends Controller
     public function store(Request $request)
     {
         DB::insert('insert into counters (name,tan_id,book1,book2,book3,veg,created_at) 
-                values (?,?,?,?,?,?,?,DATE_ADD(NOW(), INTERVAL 8 HOUR))',[$request['name'],$request['tan'],(int)$request['b1'],(int)$request['b2'],(int)$request['b3'],(int)$request['veg']]);
+                values (?,?,?,?,?,?,DATE_ADD(NOW(), INTERVAL 8 HOUR))',[$request['name'],$request['tan'],(int)$request['b1'],(int)$request['b2'],(int)$request['b3'],(int)$request['veg']]);
         return true;//['success' => 'successfully done'];//redirect('/');
     } 
     public function summary(Request $request)

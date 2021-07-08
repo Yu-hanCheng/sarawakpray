@@ -81,6 +81,7 @@
 	<table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
+                <th>地區</th>
                 <th>組別</th>
                 <th>壇名</th>
                 <th>姓名</th>

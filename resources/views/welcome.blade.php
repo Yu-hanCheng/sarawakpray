@@ -90,8 +90,8 @@
 							<td>
 								<select name="tan" id="tan">
 									<option value="D佛院">佛院</option>      
-									@foreach($tans as $tan)
-									<option value="{{$tan->id}}">{{ $tan->tan}}</option>
+									@foreach($tans as $atan)
+									<option value="{{$atan->id}}">{{ $atan->tan}}</option>
 									@endforeach
 									
 								</select>
