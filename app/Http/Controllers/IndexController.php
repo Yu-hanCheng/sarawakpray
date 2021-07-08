@@ -26,8 +26,8 @@ class IndexController extends Controller
     {
         $sumup= DB::table('counters')
                 ->join('tan_list', 'tan_list.id', '=', 'contacts.tan_id')
-                ->select(DB::raw('area,group,tan,name,SUM(book1) as b1, SUM(book2) as b2, SUM(book3) as b3, SUM(veg) as veg'))
-                ->groupBy('area','grp','tan','name')
+                ->select(DB::raw('area,`group`,tan,name,SUM(book1) as b1, SUM(book2) as b2, SUM(book3) as b3, SUM(veg) as veg'))
+                ->groupBy('area','group','tan','name')
                 ->orderBy('tan')
                 ->get();
         return view('Statistic', ['statistic' => $sumup]);
