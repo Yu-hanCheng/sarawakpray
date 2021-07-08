@@ -131,6 +131,11 @@
 							<td><input type="text" name="veg" id="veg" style="font-size: 12pt; font-family: 新細明體"
 									maxlenght="3" size="3" value=""></td>
 						</tr>
+						<tr>
+							<td>叩首</td>
+							<td><input type="number" name="kotow" id="kotow" style="font-size: 12pt; font-family: 新細明體"
+									maxlenght="4" size="4" step="1" value=""></td>
+						</tr>
 					</tbody>
 				</table>
 			</form>
@@ -243,6 +248,7 @@
 						var book2 = (jQuery)("#book2").val();
 						var book3 = (jQuery)("#book3").val();
 						var veg = (jQuery)("#veg").val();
+						var kotow = (jQuery)("#kotow").val();
 						if (book1 == "") {
 							book1 = "0";
 						}
@@ -255,8 +261,11 @@
 						if (veg == "") {
 							veg = "0";
 						}
+						if (kotow  == "") {
+							kotow = "0";
+						}
 						var data = "name=" + name + "&tan=" + tan + "&b1=" + book1 + "&b2=" +
-							book2 + "&b3=" + book3 + "&veg=" + veg;
+							book2 + "&b3=" + book3 + "&veg=" + veg+ "&kotow=" + kotow;
 						//驗證輸入空白
 						if (document.formadd.name.value == "") {
 							alert("請輸姓名！");
@@ -269,7 +278,7 @@
 						//	return false;
 						//}	
 						if (document.formadd.book1.value == "" && document.formadd.book2.value == "" &&
-							document.formadd.book3.value == "" && document.formadd.veg.value == "") {
+							document.formadd.book3.value == "" && document.formadd.veg.value == "" && document.formadd.kotow.value == "") {
 							alert("至少誦一部經才可存檔！");
 							document.form.book1.focus();
 							return false;
@@ -348,6 +357,7 @@
 			(jQuery)("#book2").val("");
 			(jQuery)("#book3").val("");
 			(jQuery)("#veg").val("");
+			(jQuery)("#kotow").val("");
 			// (jQuery).unblockUI();
 			(jQuery)("input").attr("disabled", false);
 			(jQuery)("select").attr("disabled", false);

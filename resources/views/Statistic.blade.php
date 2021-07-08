@@ -91,6 +91,7 @@
 					<th>心經</th>
 					<th>號召令</th>
 					<th>一日一齋</th>
+					<th>叩首</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -104,6 +105,7 @@
 					<td>{{$data->b2}}</td>
 					<td>{{$data->b3}}</td>
 					<td>{{$data->veg}}</td>
+					<td>{{$data->kotow}}</td>
 				</tr>
 				@endforeach
 			</tbody>
@@ -117,6 +119,7 @@
 					<th>心經</th>
 					<th>明聖經</th>
 					<th>一日一齋</th>
+					<th>叩首</th>
 				</tr>
 			</tfoot>
 		</table>

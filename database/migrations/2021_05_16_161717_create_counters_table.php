@@ -22,6 +22,7 @@ class CreateCountersTable extends Migration
             $table->integer('book2');
             $table->integer('book3');
             $table->integer('veg');
+            $table->integer('kotow');
         });
     }
 
