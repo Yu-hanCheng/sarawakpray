@@ -91,7 +91,7 @@
 								<select name="tan" id="tan">
 									<option value="D佛院">佛院</option>      
 									@foreach($tans as $atan)
-									<option value="{{$atan->id}}">{{ $atan->tan}}</option>
+									<option value="{{$atan->id}}">{{$atan->area}}-{{$atan->group}}-{{$atan->tan}}</option>
 									@endforeach
 									
 								</select>
