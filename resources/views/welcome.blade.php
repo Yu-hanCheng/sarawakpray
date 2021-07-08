@@ -207,7 +207,7 @@
 				<div class="col">
 					<div class="card mb-3 rounded-3 shadow-sm">
 						<div class="card-header py-3">
-							<h4 class="my-0 fw-normal">叩首</h4>
+							<h4 class="my-0 fw-normal">誠心叩首</h4>
 						</div>
 						<div class="card-body">
 							<h1 class="card-title pricing-card-title">
