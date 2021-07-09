@@ -62,7 +62,7 @@
 		<main>
 			<div align="center"><input name="addSubmit" type="button" class="btn btn-primary btn-lg" id="addSubmit" onclick="javascript:add()" value="我已經完成誦經"></div>
 			<br>
-			<div align="center" class="fs-6 text-muted">第二階段:即曰起~7/12止。7/24早上9:00功德迴向為大家祈健康平安、疫情消災。</div>
+			<div align="center" class="fs-6 text-muted">即日起。各壇可以在初一十五獻供叩首時，將個人的誦經與​​叩首的功德，做一次迴向，祈求疫情消災，所有祈福人員健康平安。</div>
 			<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-formadd" style="display: none; z-index: 1000; outline: 0px; position: fixed;">
 				<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-formadd">&nbsp;</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div>
 				<form action="/" method="post" name="formadd" id="formadd" role="form" class="ui-dialog-content ui-widget-content">
