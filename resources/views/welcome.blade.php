@@ -174,7 +174,7 @@
 					<div class="col">
 						<div class="card mb-3 rounded-3 shadow-sm">
 							<div class="card-header py-3">
-								<h4 class="my-0 fw-normal">桃園明聖經</h4>
+								<h4 class="my-0 fw-normal">號召令</h4>
 							</div>
 							<div class="card-body">
 								<h1 class="card-title pricing-card-title">
@@ -182,7 +182,7 @@
 									<small class="text-muted fw-light">次</small>
 								</h1>
 								<a name="book3" class="w-100 btn btn-warning" href="{{url('min')}}" value="明聖經本文" target="_blank">
-									桃園明聖經本文
+								號召令本文
 								</a>
 							</div>
 						</div>
